@@ -64,16 +64,38 @@ Y= A⊕B
 
 **PROGRAM**
 
+```
+module digitalelectronics(a,b,c,d,e,f,g,h);
+input a,b;
+output c,d,e,f,g,h;
+assign c=a&b;
+assign d=a|b;
+assign e=~a;
+assign f=a^b;
+assign g=~(a&b);
+assign h=~(a|b);
+endmodule
+```
+
 Program for logic gates and verify its truth table in quartus using Verilog programming
 
  Developed by: RegisterNumber: 
  
 **Logic symbol & Truthtable**
 
+![alt text](<Screenshot 2024-12-06 034352.png>)
+
+
 **RTL realization Output:** 
+
+![alt text](<Screenshot 2024-12-06 034434.png>)
 
 **RTL**
 
+![alt text](<Screenshot 2024-12-06 034522.png>)
+
+
 **Result:**
 
-
+ The truth table of the specified logic gates (AND, OR, NOT, NAND, NOR, XOR, XNOR) was successfully implemented and verified using
+ Verilog programming in Quartus II
